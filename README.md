@@ -22,3 +22,4 @@ GitHub Desktop is an app (client) for uploading code to the server. You will nee
 ..* While comparing your code and the existing online code, you can select whether replacing the original code with your new code.
 4. Sync. It means the actual file uploading, (sometimes downloading, when you code is old and you need the new code from the server) no files is transmitted until you press sync.
 5. Go to the website, see is everything doing great.
+6. Someone eventually put the confirmed code back to CS department server with filezilla.

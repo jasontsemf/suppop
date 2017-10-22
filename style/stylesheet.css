@@ -91,7 +91,7 @@ a:focus { outline: none; outline-offset: 0px; color: inherit; }
 */
 header * { -webkit-backface-visibility: hidden; }
 
-header { height: 70px; width: 100%; color: #fff; font-size: 14px; background: #222835; position: fixed; top: 0; line-height: 0; z-index: 1000; }
+header { height: 70px; width: 100%; color: #fff; font-size: 14px; background: #000000; position: fixed; top: 0; line-height: 0; z-index: 1000; }
 
 header .custom-container { position: relative; }
 
@@ -311,8 +311,8 @@ a.settings>i{font-size: 16px !important;}
 */
 .head-bg { background: #000; position: relative; padding: 10px; margin-bottom: 50px; }
 
-.head-bg-img { position: absolute; left: 0; top: 0; background: url(../img/bg.jpg); height: 100%; width: 100%; background-size: cover; opacity: 0.2; z-index: 1; background-position: center center; }
-
+/*.head-bg-img { position: absolute; left: 0; top: 0; background: url(../img/bg.jpg); height: 100%; width: 100%; background-size: cover; opacity: 0.2; z-index: 1; background-position: center center; }*/
+.head-bg-img { position: absolute; left: 0; top: 0; background: #41e8b3; height: 100%; width: 100%; background-size: cover; opacity: 1; z-index: 1; background-position: center center; }
 .head-bg-content { height: 400px; text-align: center; position: relative; z-index: 200; display: table-cell; vertical-align: middle; width: 5000px; }
 
 #content-block .head-bg-content .btn { margin-bottom: 10px; }
@@ -658,7 +658,7 @@ transition: all ease-out 0.3s;}
 	07 - FOOTER
 ==================================
 */
-footer { background: #222835; }
+footer { background: #000000; }
 
 .footer_slider .swiper-slide { position: relative; }
 
@@ -670,7 +670,7 @@ footer p a { color: #e57335; text-decoration: underline; }
 
 footer p a:hover { color: #fff; text-decoration: none; }
 
-.footer-main { padding: 46px 0; border-bottom: 1px solid #2e3542; }
+.footer-main { padding: 46px 0; border-bottom: 1px solid #000000; }
 
 .footer-title { color: #FFF; font-size: 14px; font-family: 'Conv_helveticaneuecyr-bold'; margin-bottom: 20px; }
 

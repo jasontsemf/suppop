@@ -1,0 +1,19 @@
+User-agent: *
+Crawl-delay: 10
+
+Allow: /img/*.png
+Allow: /img/*.png$
+Allow: /img/*.png?
+Allow: /img/*.jpg
+Allow: /img/*.jpg$
+Allow: /img/*.jpg?
+Allow: /img/*.jpeg
+Allow: /img/*.jpeg$
+Allow: /img/*.jpeg?
+Allow: /style/
+Allow: /font/
+
+Disallow: /script/
+Disallow: /scss/
+Disallow: /README.md
+Disallow: /gulpfile.js

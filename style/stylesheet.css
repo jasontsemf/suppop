@@ -329,7 +329,7 @@ a.settings>i{font-size: 16px !important;}
 
 .head-bg.style-3 { padding-top: 120px; padding-bottom: 120px; margin-bottom: 0px; background: #181d27; }
 
-.head-bg.style-3 .head-bg-img { opacity: 0.2; }
+.head-bg.style-3 .head-bg-img { box-shadow: 4000px 3000px rgba(65, 232, 179, 0.8) inset;}
 
 .head-bg.style-3 .head-bg-content { height: 310px; }
 

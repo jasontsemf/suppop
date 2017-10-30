@@ -60,8 +60,8 @@
 					<ul class="header-menu" id="one">
 						<button class="cmn-toggle-switch cmn-toggle-switch__htx"><span></span></button>
 						<ul class="header-menu" id="one">
-							<li class="active-header"><a href="activity.html">Top Projects</a></li>
-						<li><a href="#">Top Creators</a></li>
+							<li><a href="index.html">Top Projects</a></li>
+						<li class="active-header"><a href="people.html">Top Creators</a></li>
 						<li><a href="#">Categories</a></li>
 					</ul>
 				</div>
@@ -77,9 +77,25 @@
 
 	<!-- MAIN CONTENT -->
 	<div id="content-block">
-		<div class="head-bg">
-			<div class="head-bg-img"></div>
+		<div class="head-bg style-3 ab-us">
+			<!-- <div class="head-bg-img"></div> -->
+			<div class="swiper-container" data-autoplay="2000" data-loop="0" data-speed="500" data-center="0" data-slides-per-view="1">
+                <div class="swiper-wrapper">
+                	<div class="swiper-slide head-bg-img " data-val="0">
+                		<img class="center-image" src="img/bg-3.jpg" alt="">
+                	</div>
+                	<div class="swiper-slide head-bg-img" data-val="1">
+                		<img class="center-image" src="img/bg-2.jpg" alt="">
+                	</div>
+                	<div class="swiper-slide head-bg-img" data-val="2">
+                		<img class="center-image" src="img/bg-5.jpg" alt="">
+                	</div>
+                </div>
+                <div class="pagination hidden"></div>
+            </div>
 			<div class="head-bg-content">
+				<div class="swiper-arrow-left type-2 be-out"></div>
+				<div class="swiper-arrow-right type-2 be-out"></div>
 				<h1>Your Best Social Network Template</h1>
 				<p>Donec in rhoncus tortor. Sed tristique auctor ligula vel viverra</p>
 				<a class="btn color-1 size-1 hover-1" href="blog-detail-2.html"><i class="fa fa-facebook"></i>sign up via facebook</a>

@@ -2563,7 +2563,6 @@ Main components
   .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
     float: right;
   }
-
   .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date {
     left: auto;
     right: 122%;

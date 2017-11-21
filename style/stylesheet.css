@@ -342,7 +342,9 @@ a.settings>i{font-size: 16px !important;}
 	03 - MAIN
 ==================================
 */
-#content-block { margin-top: 70px; margin-bottom: 50px; }
+#content-block { margin-top: 70px;
+  /*margin-bottom: 50px;*/
+ }
 
 .for-be-dropdowns .be-drop-down { display: inline-block; margin-bottom: 50px; margin-right: 30px; }
 
@@ -815,7 +817,7 @@ span.right { float: right; }
 
 .be-checkbox { margin-bottom: 15px; }
 
-.be-popup-sign-button { float: right; color: #FFF; margin-left: 5px; margin-right: 5px;padding: 17px 30px; background: #e57335; font-size: 14px; border: none; border-radius: 2px; }
+.be-popup-sign-button { float: right; color: #FFF; margin-left: 5px; margin-right: 5px; margin-bottom: 5px; padding: 18px 35px; background: #e57335; font-size: 14px; border: none; border-radius: 2px; width:127px}
 
 .be-popup-sign-button:hover { background: #41e8b3; }
 
